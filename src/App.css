@@ -59,13 +59,13 @@
 }
 
 .bn632-hover {
-  width: 160px;
-  font-size: 16px;
+  width: 250px;
+  font-size: 20px;
   font-weight: 600;
   color: #fff;
   cursor: pointer;
   margin: 20px;
-  height: 55px;
+  height: 70px;
   text-align: center;
   border: none;
   background-size: 300% 100%;
@@ -91,10 +91,10 @@
 .bn632-hover.bn22 {
   background-image: linear-gradient(
     to right,
-    #e45c1d,
-    #df4e3b,
-    #f8733e,
-    #c04c1e
+    #f03918,
+    #ff6c28,
+    #ff7038,
+    #e95b22
   );
   box-shadow: 0 4px 15px 0 rgba(23, 139, 168, 0.75);
 }
