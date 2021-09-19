@@ -15,6 +15,13 @@
 
 .App-header {
   background-color: #282c34;
+  background-image: linear-gradient(
+      0deg,
+      rgba(41, 186, 243, 0.3),
+      rgba(4, 67, 104, 0.3)
+    ),
+    url("./assets/bg.jpg");
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +42,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 2rem;
+  width: 2rem;
+}
+
+.title {
+  flex: 1;
+}
+
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn22 {
+  background-image: linear-gradient(
+    to right,
+    #e45c1d,
+    #df4e3b,
+    #f8733e,
+    #c04c1e
+  );
+  box-shadow: 0 4px 15px 0 rgba(23, 139, 168, 0.75);
 }

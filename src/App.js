@@ -1,21 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./assets/logo.png";
+import "./App.css";
+import deck from "./assets/AppreciationToken.pdf";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <div className="logoContrainaer">
+          {/* <div className="logo"> */}
+          <img src={logo} height="200rem" width="200rem" />
+          {/* </div> */}
+          <div className="title">
+            <h1>Appreciation Token </h1>
+          </div>
+        </div>
+
+        <a href={deck} download="Deck.pdf" target="_blank">
+          <button className="bn632-hover bn22">Download Deck</button>{" "}
         </a>
       </header>
     </div>
