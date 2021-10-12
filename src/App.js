@@ -18,7 +18,7 @@ function App() {
         </div>
 
         <a
-          href="https://drive.google.com/file/d/10czH9W90ucRnDGh2mdAPQShU7N2JnjC2/view"
+          href="https://drive.google.com/file/d/10VJWUcG0g2jm7S1hk-w_Vc9aWXiHtA8C/view?usp=sharing"
           target="_blank"
         >
           <button className="bn632-hover bn22">Download Deck</button>{" "}
